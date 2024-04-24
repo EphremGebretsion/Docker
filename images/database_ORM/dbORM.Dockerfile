@@ -5,4 +5,5 @@ RUN apt update \
 	&& apt install mysql-server -y\
 	&& apt install sudo -y\
 	&& apt install python3 -y \
+	&& apt install pip -y \
 	&& pip install SQLAlchemy
